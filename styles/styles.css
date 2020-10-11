@@ -1,0 +1,28 @@
+@font-face {
+    font-family: SouthernAire;
+    src: url("../assets/font/southern_aire.ttf") format("truetype");
+    font-stretch: expanded;
+}
+
+html, body {
+    background-color: var(--white);
+    overflow: hidden;
+}
+
+h1, p {
+    color: var(--white);
+}
+
+/* Header Styles */
+header {
+    background-color: var(--red);
+}
+
+header h1 {
+    font-family: SouthernAire, sans-serif;
+}
+
+/* Main Body Styles */
+#container {
+    background-color: var(--red);
+}

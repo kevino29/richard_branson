@@ -1,0 +1,38 @@
+/* Header Layouts */
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 50px;
+}
+
+header h1 {
+    text-align: center;
+}
+
+/* Intro Layouts */
+#intro {
+    text-align: center;
+}
+
+.introImages {
+    display: inline-block;
+    margin: 0 auto;
+}
+
+#logo {
+    height: 200px;
+    width: auto;
+}
+
+#portrait {
+    height: 500px;
+    width: auto;
+}
+
+/* Main Body Layouts */
+#container {
+    margin: 0 auto;
+    width: 80%;
+    height: auto;
+}
