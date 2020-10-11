@@ -30,7 +30,9 @@ header h1 {
 
 /* Main Body Styles */
 #container p {
+    font-size: 20px;
     color: var(--red);
+    text-align: justify;
     /*background-color: var(--red);*/
 }
 

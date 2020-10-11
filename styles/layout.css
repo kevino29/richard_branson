@@ -29,6 +29,7 @@ header {
 }
 
 #portrait {
+    padding-left: 60px;
     height: 500px;
     width: auto;
 }
