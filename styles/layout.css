@@ -1,18 +1,21 @@
+/* Body Layout */
+body {
+    position: relative;
+    min-height: 100vh;
+}
+
 /* Header Layouts */
 header {
     position: fixed;
     top: 0;
     width: 100%;
-    height: 50px;
-}
-
-header h1 {
-    text-align: center;
+    height: 70px;
 }
 
 /* Intro Layouts */
 #intro {
     text-align: center;
+    padding-top: 100px;
 }
 
 .introImages {
@@ -35,4 +38,19 @@ header h1 {
     margin: 0 auto;
     width: 80%;
     height: auto;
+    padding-bottom: 50px;
+}
+
+/* Footer Layouts */
+footer {
+    position: absolute;
+    bottom: 0;
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+}
+
+footer p {
+    text-align: center;
+    margin: auto 0;
 }

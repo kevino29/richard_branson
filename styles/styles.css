@@ -4,9 +4,13 @@
     font-stretch: expanded;
 }
 
+html::-webkit-scrollbar {
+    display: none;
+}
+
 html, body {
     background-color: var(--white);
-    overflow: hidden;
+    -ms-overflow-style: none;
 }
 
 h1, p {
@@ -20,9 +24,17 @@ header {
 
 header h1 {
     font-family: SouthernAire, sans-serif;
+    text-align: center;
+    font-size: 60px;
 }
 
 /* Main Body Styles */
-#container {
+#container p {
+    color: var(--red);
+    /*background-color: var(--red);*/
+}
+
+/* Footer Styles */
+footer {
     background-color: var(--red);
 }
