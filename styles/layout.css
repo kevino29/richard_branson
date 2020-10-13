@@ -1,10 +1,12 @@
 /* Body Layout */
+
 body {
     position: relative;
     min-height: 100vh;
 }
 
 /* Header Layouts */
+
 header {
     position: fixed;
     top: 0;
@@ -13,6 +15,7 @@ header {
 }
 
 /* Intro Layouts */
+
 #intro {
     text-align: center;
     padding-top: 100px;
@@ -35,6 +38,7 @@ header {
 }
 
 /* Main Body Layouts */
+
 #container {
     margin: 0 auto;
     width: 80%;
@@ -42,7 +46,25 @@ header {
     padding-bottom: 50px;
 }
 
+#interview-container {
+    width: 80%;
+    margin: 50px auto;
+    background-color: var(--light);
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+#interview {
+    width: 100%;
+    height: 100%;
+}
+
+#interview>button {
+    width: 100%;
+}
+
 /* Footer Layouts */
+
 footer {
     position: absolute;
     bottom: 0;
