@@ -49,7 +49,7 @@ header {
 #interview-container {
     width: 80%;
     margin: 50px auto;
-    background-color: var(--light);
+    background-color: #EEEEEE;
     padding: 1rem;
     border-radius: 1rem;
 }
