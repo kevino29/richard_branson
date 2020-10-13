@@ -63,6 +63,15 @@ header {
     width: 100%;
 }
 
+#downloadButton {
+    margin: 50px 0;
+    text-align: center;
+}
+
+#download {
+    padding: 15px 35px;
+}
+
 /* Footer Layouts */
 
 footer {

@@ -123,6 +123,23 @@ header h1 {
     transform-origin: left;
 }
 
+/* Download Button Styles */
+
+#download {
+    transition: background-color 0.4s, color 0s;
+    color: var(--red);
+    font-weight: bold;
+    border: 1px solid var(--red);
+    border-radius: 15px;
+}
+
+#download:hover {
+    transition: background-color 0.4s, color 0s;
+    text-decoration: none;
+    color: white;
+    background-color: var(--red);
+}
+
 /* Footer Styles */
 
 footer {
